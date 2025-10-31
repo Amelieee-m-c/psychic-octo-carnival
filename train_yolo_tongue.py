@@ -8,7 +8,7 @@ from ultralytics import YOLO
 
 if __name__ == "__main__":
     model = YOLO("yolov8n.pt")  # 使用輕量模型開始訓練
-
+    
     model.train(
         data="data.yaml",
         epochs=50,
